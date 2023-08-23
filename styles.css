@@ -1,0 +1,71 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif ;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+}
+
+.section-title h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 200px;
+  height: 3px;
+  background: rgb(20, 160, 220);
+  bottom: 1;
+  left: 1;
+}
+
+/* Hero Section */
+#hero {
+  min-height: 100vh;
+  display: flex;
+  background-color: rgb(25, 55, 130);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#hero h1 {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+
+.social-menu {
+  text-align: center;
+  margin: 60px 0;
+}
+
+.social-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social-menu li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.social-menu a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  display: block;
+  text-align: center;
+  
+}
+
+.social-menu a:hover {
+  color: rgb(20, 160, 220);
+}
