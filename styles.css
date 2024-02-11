@@ -22,7 +22,7 @@ p {
   display: block;
   width: 200px;
   height: 3px;
-  background: rgb(20, 160, 220);
+  background: rgb(25, 95, 240);
   bottom: 1;
   left: 1;
 }
@@ -31,14 +31,14 @@ p {
 #hero {
   min-height: 100vh;
   display: flex;
-  background-color: rgb(25, 55, 130);
+  background-color: whitesmoke;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
 #hero h1 {
-  color: rgb(255, 255, 255);
+  color: #454545;
   font-size: 50px;
 }
 
@@ -59,13 +59,29 @@ p {
 
 .social-menu a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
-  font-size: 32px;
-  display: block;
+  color: #454545;
+  font-size: 25px;
+  display: inline-block;
   text-align: center;
   
 }
 
 .social-menu a:hover {
-  color: rgb(20, 160, 220);
+  color: rgb(25, 55, 130);
+}
+
+/* Footer */
+#footer {
+  min-height: 70px;
+  display: flex;
+  background-color: whitesmoke;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#footer p {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
 }
